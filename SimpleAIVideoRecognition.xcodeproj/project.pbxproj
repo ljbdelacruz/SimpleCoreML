@@ -14,6 +14,7 @@
 		EEAFB51E219442F1007A9A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFB51C219442F1007A9A8D /* LaunchScreen.storyboard */; };
 		EEDAC720219793EC00FCAB13 /* ScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC71F219793EC00FCAB13 /* ScanningViewController.swift */; };
 		EEDAC724219794CF00FCAB13 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC723219794CF00FCAB13 /* PreviewView.swift */; };
+		EEDAC72621979ACD00FCAB13 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC72521979ACD00FCAB13 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EEAFB51F219442F1007A9A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEDAC71F219793EC00FCAB13 /* ScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningViewController.swift; sourceTree = "<group>"; };
 		EEDAC723219794CF00FCAB13 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		EEDAC72521979ACD00FCAB13 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		EEAFB512219442F1007A9A8D /* SimpleAIVideoRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				EEDAC72521979ACD00FCAB13 /* Inceptionv3.mlmodel */,
 				EEDAC7212197949C00FCAB13 /* Custom */,
 				EEAFB525219442FA007A9A8D /* ViewControllers */,
 				EEAFB513219442F1007A9A8D /* AppDelegate.swift */,
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEDAC72621979ACD00FCAB13 /* Inceptionv3.mlmodel in Sources */,
 				EEAFB516219442F1007A9A8D /* ViewController.swift in Sources */,
 				EEDAC724219794CF00FCAB13 /* PreviewView.swift in Sources */,
 				EEDAC720219793EC00FCAB13 /* ScanningViewController.swift in Sources */,
@@ -317,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
 				INFOPLIST_FILE = SimpleAIVideoRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
 				INFOPLIST_FILE = SimpleAIVideoRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
