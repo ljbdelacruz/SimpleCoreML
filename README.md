@@ -1,4 +1,4 @@
-# SimpleCoreML
+# SimpleCoreMLARApp For Planets
 this project is intended for scanning images of planets and it returns the information about that planet working progress
 
 
